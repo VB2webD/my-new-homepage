@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import Layout from "../src/app/components/layouts/Layout";
 
 const index = () => {
   return (
-    <StyledTest>
+    <Layout>
       <h1>hello world!</h1>
-    </StyledTest>
+    </Layout>
   );
 };
 
@@ -15,8 +16,3 @@ export default index;
   Styling
 _________*/
 
-const StyledTest = styled.div`
-  h1 {
-    color: var(--color-bg-main);
-  }
-`;
