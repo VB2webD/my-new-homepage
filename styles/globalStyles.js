@@ -1,3 +1,10 @@
+import { createGlobalStyle } from "styled-components";
+
+const globalStyles = createGlobalStyle`
+:root {
+--color-bg-main: rgb(0 0 0 / 90%);
+}
+
 html,
 body {
   padding: 0;
@@ -14,3 +21,6 @@ a {
 * {
   box-sizing: border-box;
 }
+`;
+
+export default globalStyles;

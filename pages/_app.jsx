@@ -1,7 +1,13 @@
 import React from "react";
+import GlobalStyles from "../styles/globalStyles";
 
-const _app = () => {
-  return <Component {...pageProps} />;
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <>
+      <GlobalStyles />
+      <Component {...pageProps} />;
+    </>
+  );
 };
 
-export default _app;
+export default MyApp;
