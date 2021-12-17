@@ -16,8 +16,11 @@ export default Footer;
 _________*/
 
 const StyledFooter = styled.footer`
-  background-color: hotpink;
+  background-color: var(--color-bg-footer);
+  width: 100vw;
+
   p {
     margin: 0;
+    color: var(--color-font-headlines);
   }
 `;

@@ -16,7 +16,8 @@ export default Header;
 _________*/
 
 const StyledHeader = styled.header`
-  background-color: lightgrey;
+  background-color: var(--color-bg-header);
+  width: 100vw;
 
   h1 {
     margin: 0;
