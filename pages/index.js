@@ -1,11 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import Header from "../src/app/components/layout/Header";
+import Footer from "../src/app/components/layout/Footer";
 
 const index = () => {
   return (
-    <StyledTest>
-      <h1>hello world!</h1>
-    </StyledTest>
+    <>
+      <Header />
+      <StyledMain>
+        <div>
+          <p>Placeholder</p>
+        </div>
+      </StyledMain>
+      <Footer />
+    </>
   );
 };
 
@@ -15,8 +23,12 @@ export default index;
   Styling
 _________*/
 
-const StyledTest = styled.div`
-  h1 {
-    color: var(--color-bg-main);
+const StyledMain = styled.main`
+  padding:0 1%;
+  div {
+    display: flex;
+    flex-grow: 1;
+
+    border: 1px solid black;
   }
 `;
