@@ -8,16 +8,9 @@ const index = () => {
     <>
       <Header />
       <StyledMain>
-        <h1>
-          hello world! asdfhi,oikghgffasdfstatic getDerived
-          StateFromProps(props, state) asdfasdf asdf asdf asdf asdf asdf asdf
-          asdf asdf asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf asdf
-          asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdfasdf asdf
-          asdf asdf asdf asdf asdf asdf asdf asdfasdfasdf asdf asdf asdf asdf
-          asdf asdf asdf asdf asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf
-          asdf asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdfasdf
-          asdf asdf asdf asdf asdf asdf asdf asdf asdf
-        </h1>
+        <div>
+          <p>Placeholder</p>
+        </div>
       </StyledMain>
       <Footer />
     </>
@@ -31,4 +24,11 @@ export default index;
 _________*/
 
 const StyledMain = styled.main`
-`
+  padding:0 1%;
+  div {
+    display: flex;
+    flex-grow: 1;
+
+    border: 1px solid black;
+  }
+`;
