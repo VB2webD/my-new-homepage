@@ -1,12 +1,26 @@
 import React from "react";
 import styled from "styled-components";
-import Layout from "../src/app/components/layouts/Layout";
+import Header from "../src/app/components/layout/Header";
+import Footer from "../src/app/components/layout/Footer";
 
 const index = () => {
   return (
-    <Layout>
-      <h1>hello world!</h1>
-    </Layout>
+    <>
+      <Header />
+      <StyledMain>
+        <h1>
+          hello world! asdfhi,oikghgffasdfstatic getDerived
+          StateFromProps(props, state) asdfasdf asdf asdf asdf asdf asdf asdf
+          asdf asdf asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf asdf
+          asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdfasdf asdf
+          asdf asdf asdf asdf asdf asdf asdf asdfasdfasdf asdf asdf asdf asdf
+          asdf asdf asdf asdf asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf
+          asdf asdfasdfasdf asdf asdf asdf asdf asdf asdf asdf asdf asdfasdfasdf
+          asdf asdf asdf asdf asdf asdf asdf asdf asdf
+        </h1>
+      </StyledMain>
+      <Footer />
+    </>
   );
 };
 
@@ -16,3 +30,5 @@ export default index;
   Styling
 _________*/
 
+const StyledMain = styled.main`
+`
